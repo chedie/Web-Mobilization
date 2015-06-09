@@ -1,0 +1,491 @@
+/* Screen Sizes */
+/* Text Colors */
+/* line 15, ../stylesheets/course.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+/* line 19, ../stylesheets/course.scss */
+hr {
+  /*
+  background: {
+  	image: url(../images/border.png);
+  	repeat: no-repeat;
+  	position: center center;
+  }
+  */
+  border-bottom: 3px double #eee !important;
+  border-top: none !important;
+  float: left;
+  height: auto;
+  padding: .5em 0;
+  width: 100%;
+}
+
+/* line 37, ../stylesheets/course.scss */
+img.shareaholic-share-buttons-heading-image {
+  width: auto !important;
+}
+
+/* line 43, ../stylesheets/course.scss */
+.shareaholic-share-buttons-container {
+  float: left;
+  clear: both;
+  width: 100%;
+  z-index: 9999;
+}
+
+/* Homepage */
+/* line 83, ../stylesheets/course.scss */
+body {
+  background-color: #ffffff;
+  color: #777777;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+/* line 98, ../stylesheets/course.scss */
+#main-banner {
+  clear: both;
+  float: left;
+}
+/* line 103, ../stylesheets/course.scss */
+#main-banner h1 {
+  font-size: 3.2em;
+  text-shadow: 1px 2px #666666;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 103, ../stylesheets/course.scss */
+  #main-banner h1 {
+    font-size: 2.2em;
+  }
+}
+/* line 112, ../stylesheets/course.scss */
+#main-banner .chapter {
+  clear: both;
+  float: left;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  weight: 100%;
+}
+/* line 127, ../stylesheets/course.scss */
+#main-banner.homepage {
+  background-image: url(../images/home.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  padding: 2.5em 1em .4em 1em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+}
+/* line 132, ../stylesheets/course.scss */
+#main-banner.chapter1 {
+  background-image: url(../images/what-is-the-mobile-web.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  padding: 2.5em 1em .4em 1em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 132, ../stylesheets/course.scss */
+  #main-banner.chapter1 {
+    background-color: #fbad17;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+  }
+}
+/* line 144, ../stylesheets/course.scss */
+#main-banner.chapter2 {
+  background-image: url(../images/do-you-need-a-mobile-optimized-website.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  padding: 2.5em 1em .4em 1em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 144, ../stylesheets/course.scss */
+  #main-banner.chapter2 {
+    background-color: #427eb2;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+  }
+}
+/* line 156, ../stylesheets/course.scss */
+#main-banner.chapter3 {
+  background-image: url(../images/26-tips-on-optimizing-your-website-for-mobile.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  padding: 2.5em 1em .4em 1em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 156, ../stylesheets/course.scss */
+  #main-banner.chapter3 {
+    background-color: #4d3b52;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+  }
+}
+/* line 168, ../stylesheets/course.scss */
+#main-banner.chapter4 {
+  background-image: url(../images/diy-or-hire-help.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  padding: 2.5em 1em .4em 1em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 168, ../stylesheets/course.scss */
+  #main-banner.chapter4 {
+    background-color: #96233c;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+  }
+}
+/* line 180, ../stylesheets/course.scss */
+#main-banner.chapter5 {
+  background-image: url(../images/on-mobile-seo.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  padding: 2.5em 1em .4em 1em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 180, ../stylesheets/course.scss */
+  #main-banner.chapter5 {
+    background-color: #efd35e;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+  }
+}
+/* line 192, ../stylesheets/course.scss */
+#main-banner.conclusion {
+  background-image: url(../images/conclusion.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: cover;
+  margin-top: 0;
+  margin-bottom: 1.5em;
+  color: #ffffff;
+  float: left;
+  min-height: 100vh;
+  padding: 2.5em 1em .4em 1em;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 192, ../stylesheets/course.scss */
+  #main-banner.conclusion {
+    background-color: #456bb3;
+    background-size: contain;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    -o-background-size: contain;
+  }
+}
+
+/* line 206, ../stylesheets/course.scss */
+#page-content-wrapper {
+  background-color: #f8f8f8;
+  position: absolute;
+  padding: 0;
+  width: 100%;
+}
+/* line 215, ../stylesheets/course.scss */
+#page-content-wrapper #menu-toggle {
+  display: block;
+  float: left;
+  margin-bottom: 1.5em;
+  width: auto;
+}
+/* line 224, ../stylesheets/course.scss */
+#page-content-wrapper .row-menu {
+  background-color: #dff0d8;
+  clear: both;
+  float: left;
+  padding: 1em;
+  width: 100%;
+}
+/* line 234, ../stylesheets/course.scss */
+#page-content-wrapper .row {
+  padding: 0;
+}
+/* line 236, ../stylesheets/course.scss */
+#page-content-wrapper .row img {
+  width: 100%;
+}
+/* line 238, ../stylesheets/course.scss */
+#page-content-wrapper .row .expand-collapse {
+  clear: both;
+  float: left;
+  margin-bottom: 1em;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 246, ../stylesheets/course.scss */
+  #page-content-wrapper .row .callout {
+    margin: 1em 0;
+  }
+}
+
+/* line 256, ../stylesheets/course.scss */
+#homepage-content .row {
+  background-color: #f0f0ee;
+  float: left;
+  margin: 2em 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 266, ../stylesheets/course.scss */
+#homepage-content figure {
+  margin: 0;
+  padding: 0;
+}
+/* line 267, ../stylesheets/course.scss */
+#homepage-content figure img {
+  width: 100%;
+}
+/* line 271, ../stylesheets/course.scss */
+#homepage-content figure.col-sm-6 {
+  padding: 0;
+}
+/* line 276, ../stylesheets/course.scss */
+#homepage-content .description {
+  font-size: .9em;
+  padding: 1.5em;
+}
+/* line 283, ../stylesheets/course.scss */
+#homepage-content .description h1 a {
+  color: #111110;
+  font-size: 1em;
+  font-weight: normal;
+  -o-transition: color .5s ease-out, background 5s ease-in;
+  -ms-transition: color .5s ease-out, background 5s ease-in;
+  -moz-transition: color .5s ease-out, background 5s ease-in;
+  -webkit-transition: color .5s ease-out, background 5s ease-in;
+  transition: color .5s ease-out, background 5s ease-in;
+}
+/* line 295, ../stylesheets/course.scss */
+#homepage-content .description h1 a:hover {
+  color: #338811;
+  text-decoration: none;
+}
+/* line 302, ../stylesheets/course.scss */
+#homepage-content .description h4 {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+/* line 307, ../stylesheets/course.scss */
+#homepage-content .description .read-more {
+  font-color: #111110;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+/* line 318, ../stylesheets/course.scss */
+#homepage-content .description .read-more a {
+  border: none;
+  clear: both;
+  color: #ffffff;
+  float: left;
+  width: auto;
+  -o-transition: color .5s ease-out, background 5s ease-in;
+  -ms-transition: color .5s ease-out, background 5s ease-in;
+  -moz-transition: color .5s ease-out, background 5s ease-in;
+  -webkit-transition: color .5s ease-out, background 5s ease-in;
+  transition: color .5s ease-out, background 5s ease-in;
+}
+/* line 331, ../stylesheets/course.scss */
+#homepage-content .description .read-more a:hover {
+  border: none;
+  color: #d9534f;
+  text-decoration: none;
+}
+
+/* Sidebar */
+/* line 348, ../stylesheets/course.scss */
+#sidebar-wrapper {
+  font-family: 'Open Sans', sans-serif;
+  font-size: .9em;
+  height: 100%;
+  padding: 0;
+}
+/* line 357, ../stylesheets/course.scss */
+#sidebar-wrapper .navbar-default {
+  background-color: #ffffff;
+  border: 0;
+}
+/* line 364, ../stylesheets/course.scss */
+#sidebar-wrapper .sidebar-nav {
+  clear: both;
+  float: left;
+  padding: 0 0 0 2em;
+  width: 220px;
+}
+/* line 370, ../stylesheets/course.scss */
+#sidebar-wrapper .sidebar-nav li {
+  line-height: normal;
+  text-indent: 0;
+}
+/* line 375, ../stylesheets/course.scss */
+#sidebar-wrapper .sidebar-nav li a {
+  color: #777777;
+  -o-transition: color .5s ease-out, background 5s ease-in;
+  -ms-transition: color .5s ease-out, background 5s ease-in;
+  -moz-transition: color .5s ease-out, background 5s ease-in;
+  -webkit-transition: color .5s ease-out, background 5s ease-in;
+  transition: color .5s ease-out, background 5s ease-in;
+  padding: .4em 0;
+}
+/* line 384, ../stylesheets/course.scss */
+#sidebar-wrapper .sidebar-nav li a:hover {
+  color: #4E8011;
+}
+/* line 389, ../stylesheets/course.scss */
+#sidebar-wrapper .sidebar-nav li.sidebar-brand {
+  float: left;
+  padding: 0 0 2em 0;
+  text-align: left;
+  width: 100%;
+}
+
+/* Innerpage */
+/* line 406, ../stylesheets/course.scss */
+.inner #page-content-wrapper section.row {
+  padding: 0 3em;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 406, ../stylesheets/course.scss */
+  .inner #page-content-wrapper section.row {
+    padding: 0 1.5em;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 406, ../stylesheets/course.scss */
+  .inner #page-content-wrapper section.row {
+    padding: 1em;
+  }
+}
+/* line 419, ../stylesheets/course.scss */
+.inner #page-content-wrapper section.chapter2-content img {
+  float: left;
+  height: auto;
+  padding-right: .5em;
+  width: auto;
+}
+/* line 428, ../stylesheets/course.scss */
+.inner #page-content-wrapper section.chapter2-content .col-md-6 {
+  padding: 1.5em 1em;
+}
+/* line 434, ../stylesheets/course.scss */
+.inner #page-content-wrapper section .panel-group .panel {
+  margin: 0 0 .5em 1em;
+  width: 96.5%;
+}
+/* line 439, ../stylesheets/course.scss */
+.inner #page-content-wrapper section .panel-group .panel-heading {
+  padding: 1.4em;
+}
+/* line 443, ../stylesheets/course.scss */
+.inner #page-content-wrapper section .panel-group .panel-heading .panel-title:hover {
+  cursor: pointer;
+}
+
+/* Footer */
+/* line 460, ../stylesheets/course.scss */
+footer {
+  border-top: 3px double #eee;
+  float: left;
+  padding: 1em 0;
+}
+/* line 467, ../stylesheets/course.scss */
+footer form {
+  padding: 0 0 0 1em;
+  width: 94%;
+}
+/* line 471, ../stylesheets/course.scss */
+footer form .btn-block {
+  text-transform: uppercase;
+}
+/* line 477, ../stylesheets/course.scss */
+footer .social-media img {
+  width: auto !important;
+}
+/* line 482, ../stylesheets/course.scss */
+footer .cd-top.cd-is-visible {
+  /* the button becomes visible */
+  visibility: visible;
+  opacity: 1;
+  z-index: 9999;
+}
+/* line 489, ../stylesheets/course.scss */
+footer .cd-top.cd-fade-out {
+  /* if the user keeps scrolling down, the button is out of focus and becomes less visible */
+  opacity: .5;
+  z-index: 9999;
+}

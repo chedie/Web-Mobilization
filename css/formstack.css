@@ -1,0 +1,665 @@
+/* Screen Sizes */
+/* Text Colors */
+/* Headline Format */
+/* 42pt */
+/* For Lists */
+/*  Button Format */
+/* line 144, ../stylesheets/formstack.scss */
+body {
+  color: #455560;
+  font-family: "Ubuntu", "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
+  font-size: 1.5em;
+  /* 16pt */
+  font-weight: 400;
+  line-height: 1.8em;
+  /* 16px */
+  postion: relative !important;
+}
+
+/* line 161, ../stylesheets/formstack.scss */
+header h1 {
+  padding: 0;
+  text-align: center;
+}
+/* line 162, ../stylesheets/formstack.scss */
+header h1 a img {
+  width: 40%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 162, ../stylesheets/formstack.scss */
+  header h1 a img {
+    width: 90%;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 162, ../stylesheets/formstack.scss */
+  header h1 a img {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1224px) {
+  /* line 162, ../stylesheets/formstack.scss */
+  header h1 a img {
+    width: 30%;
+  }
+}
+/* line 183, ../stylesheets/formstack.scss */
+header button {
+  float: right;
+}
+
+/* line 189, ../stylesheets/formstack.scss */
+nav {
+  border-bottom: 1px solid #d9d9d9;
+  border-top: 1px solid #d9d9d9;
+  float: left;
+  padding: .4em 0;
+  width: 100%;
+}
+/* line 190, ../stylesheets/formstack.scss */
+nav a.navbar-brand {
+  display: none;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 190, ../stylesheets/formstack.scss */
+  nav a.navbar-brand {
+    display: inherit;
+  }
+}
+/* line 211, ../stylesheets/formstack.scss */
+nav ul {
+  margin: 0;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 211, ../stylesheets/formstack.scss */
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+}
+/* line 219, ../stylesheets/formstack.scss */
+nav ul li {
+  display: inline;
+  list-style-type: none;
+}
+/* line 46, ../stylesheets/formstack.scss */
+nav ul li a {
+  color: #455560;
+  float: left;
+  font-size: 1.5em;
+  font-weight: 400;
+  padding: .5em 1em;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+/* line 62, ../stylesheets/formstack.scss */
+nav ul li a:hover {
+  background-color: #EA9E0A;
+  border-radius: 5px;
+  color: #ffffff;
+  text-decoration: none;
+  transition: all 0.15s ease-in-out 0s;
+  transition-delay: 0s;
+  transition-duration: 0.15s;
+  transition-property: all;
+  transition-timing-functional: ease-in-out;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 219, ../stylesheets/formstack.scss */
+  nav ul li {
+    float: left;
+    width: 100%;
+  }
+}
+/* line 229, ../stylesheets/formstack.scss */
+nav ul li a {
+  font-weight: 100;
+}
+
+/* line 239, ../stylesheets/formstack.scss */
+section,
+footer {
+  clear: both;
+  float: left;
+  padding: 1em 2em;
+  width: 100%;
+}
+/* line 244, ../stylesheets/formstack.scss */
+section img,
+footer img {
+  margin: 0 auto;
+}
+
+/* line 256, ../stylesheets/formstack.scss */
+section#banner {
+  background-image: url(../images/banner-bg.jpg);
+  color: #ffffff;
+  float: left;
+  padding: 3em 10em;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 256, ../stylesheets/formstack.scss */
+  section#banner {
+    padding: 1em 2em;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 256, ../stylesheets/formstack.scss */
+  section#banner {
+    padding: 1em 2em;
+  }
+}
+/* line 281, ../stylesheets/formstack.scss */
+section#banner button {
+  border: 1px solid #42aa44;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  background: #7bc143;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a1cd3a), color-stop(50%, #42aa44), color-stop(100%, #7bc143));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(top, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1cd3a', endColorstr='#42aa44',GradientType=0 );
+  /* IE6-9 */
+  -webkit-background-size: 100% 200%;
+  -moz-background-size: 100% 200%;
+  background-size: 100% 200%;
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  -o-transition: all .15s linear;
+  -ms-transition: all .15s linear;
+  transition: all .15s linear;
+  border-radius: .5em;
+  padding: .7em 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #42aa44;
+  margin: 1em 0;
+  padding: 1em;
+}
+/* line 126, ../stylesheets/formstack.scss */
+section#banner button:hover {
+  background-position: 0 100%;
+  text-decoration: none;
+}
+/* line 287, ../stylesheets/formstack.scss */
+section#banner div:first-child {
+  line-height: 1.2em;
+}
+/* line 289, ../stylesheets/formstack.scss */
+section#banner div:first-child p {
+  font-weight: bold;
+}
+/* line 297, ../stylesheets/formstack.scss */
+section#banner div:last-child img {
+  float: right;
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 297, ../stylesheets/formstack.scss */
+  section#banner div:last-child img {
+    padding-top: 1em;
+    width: 100%;
+  }
+}
+@media tablet {
+  /* line 297, ../stylesheets/formstack.scss */
+  section#banner div:last-child img {
+    padding: 2em 1.5em 0 0;
+  }
+}
+
+/* line 319, ../stylesheets/formstack.scss */
+section#features h1 {
+  color: #7bc143;
+  padding: .4em 0;
+  font-size: 3.51313em;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 327, ../stylesheets/formstack.scss */
+section#features ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 330, ../stylesheets/formstack.scss */
+section#features ul li {
+  float: left;
+  text-align: center;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 330, ../stylesheets/formstack.scss */
+  section#features ul li {
+    min-height: 300px;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 330, ../stylesheets/formstack.scss */
+  section#features ul li {
+    width: 100%;
+  }
+}
+/* line 343, ../stylesheets/formstack.scss */
+section#features ul li h4, section#features ul li p {
+  text-align: left;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 330, ../stylesheets/formstack.scss */
+  section#features ul li {
+    padding-bottom: 1em;
+  }
+}
+/* line 351, ../stylesheets/formstack.scss */
+section#features ul li div {
+  display: block;
+  min-height: 190px;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 351, ../stylesheets/formstack.scss */
+  section#features ul li div {
+    min-height: 150px;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 351, ../stylesheets/formstack.scss */
+  section#features ul li div {
+    min-height: 175px;
+  }
+}
+
+/* line 370, ../stylesheets/formstack.scss */
+section#setup {
+  background-color: #ebebeb;
+}
+/* line 373, ../stylesheets/formstack.scss */
+section#setup h1 {
+  color: #455560;
+  font-size: 3.51313em;
+  font-weight: 400;
+  text-align: center;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+/* line 381, ../stylesheets/formstack.scss */
+section#setup ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+/* line 384, ../stylesheets/formstack.scss */
+section#setup ul li {
+  font-size: 1.1em;
+  padding: 1em 2em 1em 2em;
+}
+/* line 388, ../stylesheets/formstack.scss */
+section#setup ul li img {
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 384, ../stylesheets/formstack.scss */
+  section#setup ul li {
+    padding: .5em;
+  }
+}
+/* line 396, ../stylesheets/formstack.scss */
+section#setup ul li p {
+  min-height: 50px;
+  padding: .5em 0;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 396, ../stylesheets/formstack.scss */
+  section#setup ul li p {
+    min-height: 25px;
+    padding: 0;
+  }
+}
+
+/* line 410, ../stylesheets/formstack.scss */
+section#trial {
+  background-color: #7bc143;
+  padding: 3em 12em;
+}
+/* line 413, ../stylesheets/formstack.scss */
+section#trial button {
+  border: 1px solid #42aa44;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+  background: #7bc143;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #a1cd3a), color-stop(50%, #42aa44), color-stop(100%, #7bc143));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(top, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* IE10+ */
+  background: -o-linear-gradient(top, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* Opera 11.10+ */
+  background: linear-gradient(to bottom, #a1cd3a 0%, #42aa44 50%, #7bc143 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a1cd3a', endColorstr='#42aa44',GradientType=0 );
+  /* IE6-9 */
+  -webkit-background-size: 100% 200%;
+  -moz-background-size: 100% 200%;
+  background-size: 100% 200%;
+  -webkit-transition: all .15s linear;
+  -moz-transition: all .15s linear;
+  -o-transition: all .15s linear;
+  -ms-transition: all .15s linear;
+  transition: all .15s linear;
+  border-radius: .5em;
+  padding: .7em 2em;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-shadow: 1px 1px #42aa44;
+}
+/* line 126, ../stylesheets/formstack.scss */
+section#trial button:hover {
+  background-position: 0 100%;
+  text-decoration: none;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 410, ../stylesheets/formstack.scss */
+  section#trial {
+    padding: 3em;
+  }
+}
+/* line 421, ../stylesheets/formstack.scss */
+section#trial div.col-sm-4 {
+  color: #ffffff;
+}
+/* line 425, ../stylesheets/formstack.scss */
+section#trial h2 {
+  font-size: 2.5em;
+  font-weight: 400;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+/* line 433, ../stylesheets/formstack.scss */
+section#trial p {
+  font-size: 1.3em;
+  line-height: normal;
+  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 433, ../stylesheets/formstack.scss */
+  section#trial p {
+    padding: 1.5em 0;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 410, ../stylesheets/formstack.scss */
+  section#trial {
+    padding: 1em;
+  }
+}
+/* line 449, ../stylesheets/formstack.scss */
+section#trial form {
+  background: #ffffff;
+  /* Old browsers */
+  /* IE9 SVG, needs conditional override of 'filter' to 'none' */
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ZmZmZmZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjY2NjY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+  background: -moz-linear-gradient(top, white 0%, #cccccc 100%);
+  /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, white), color-stop(100%, #cccccc));
+  /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top, white 0%, #cccccc 100%);
+  /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top, white 0%, #cccccc 100%);
+  /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, white 0%, #cccccc 100%);
+  /* IE10+ */
+  background: linear-gradient(to bottom, #ffffff 0%, #cccccc 100%);
+  /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#cccccc',GradientType=0 );
+  /* IE6-8 */
+  border-radius: 12px;
+  -webkit-box-shadow: -3px 2px 2px 1px #68765c;
+  box-shadow: -3px 2px 2px 1px #68765c;
+  float: left;
+  padding: 2em 3em;
+}
+/* line 474, ../stylesheets/formstack.scss */
+section#trial form option {
+  font-weight: 400;
+}
+/* line 478, ../stylesheets/formstack.scss */
+section#trial form label {
+  margin: 0;
+  padding: .5em 0 0 0;
+}
+/* line 483, ../stylesheets/formstack.scss */
+section#trial form label.small {
+  color: #777;
+  font-size: .8em;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 449, ../stylesheets/formstack.scss */
+  section#trial form {
+    padding: 2em .5em 1em .5em;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 449, ../stylesheets/formstack.scss */
+  section#trial form {
+    padding: 2em 1em;
+  }
+}
+/* line 498, ../stylesheets/formstack.scss */
+section#trial form ul.form-header {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  clear: both;
+  float: left;
+  width: 100%;
+  padding-bottom: 2.5em;
+}
+/* line 511, ../stylesheets/formstack.scss */
+section#trial form ul.form-header li {
+  display: inline;
+  float: left;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 516, ../stylesheets/formstack.scss */
+  section#trial form ul.form-header li:first-child {
+    padding: 0 1em;
+  }
+}
+/* line 521, ../stylesheets/formstack.scss */
+section#trial form ul.form-header li:last-child {
+  color: #7BC143;
+  font-weight: bold;
+  padding: .4em 0 0 .3em;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 521, ../stylesheets/formstack.scss */
+  section#trial form ul.form-header li:last-child {
+    font-size: 1.7em;
+    padding: 0 .5em;
+  }
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 521, ../stylesheets/formstack.scss */
+  section#trial form ul.form-header li:last-child {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 1224px) {
+  /* line 521, ../stylesheets/formstack.scss */
+  section#trial form ul.form-header li:last-child {
+    font-size: 1.6em;
+  }
+}
+/* line 552, ../stylesheets/formstack.scss */
+section#trial form p small {
+  float: left;
+  font-size: .6em;
+  padding: 2.5em 0;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 552, ../stylesheets/formstack.scss */
+  section#trial form p small {
+    padding: 1em 0;
+    text-shadow: none;
+  }
+}
+
+/* line 566, ../stylesheets/formstack.scss */
+footer {
+  background-color: #455560;
+  color: #abb2b7;
+  font-size: 13px;
+  font-weight: 400;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 566, ../stylesheets/formstack.scss */
+  footer {
+    padding: 1em .5em;
+  }
+}
+/* line 579, ../stylesheets/formstack.scss */
+footer ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  float: none;
+}
+@media screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  /* line 579, ../stylesheets/formstack.scss */
+  footer ul {
+    float: left;
+    display: block;
+    min-height: 150px;
+  }
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 579, ../stylesheets/formstack.scss */
+  footer ul {
+    clear: both;
+  }
+}
+/* line 595, ../stylesheets/formstack.scss */
+footer ul li a {
+  color: #ffffff;
+  font-weight: 400;
+}
+/* line 600, ../stylesheets/formstack.scss */
+footer ul li a:hover {
+  color: #EA9E0A;
+  text-decoration: none;
+}
+/* line 606, ../stylesheets/formstack.scss */
+footer ul li.formstack-info {
+  text-align: center;
+}
+/* line 611, ../stylesheets/formstack.scss */
+footer ul.social-icon li {
+  float: left;
+  padding: .4em;
+  width: 100%;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 611, ../stylesheets/formstack.scss */
+  footer ul.social-icon li {
+    display: inline;
+    width: auto;
+  }
+}
+/* line 621, ../stylesheets/formstack.scss */
+footer ul.social-icon li a {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 50px;
+  background: url(../images/formstack-sprite.png) no-repeat;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  -ms-transition: none;
+  transition: none;
+}
+/* line 633, ../stylesheets/formstack.scss */
+footer ul.social-icon li a.facebook {
+  background-position: 0px 0px;
+}
+/* line 634, ../stylesheets/formstack.scss */
+footer ul.social-icon li a.facebook:hover {
+  background-position: -50px 0px;
+}
+/* line 637, ../stylesheets/formstack.scss */
+footer ul.social-icon li a.twitter {
+  background-position: 0px -50px;
+}
+/* line 638, ../stylesheets/formstack.scss */
+footer ul.social-icon li a.twitter:hover {
+  background-position: -50px -50px;
+}
+/* line 641, ../stylesheets/formstack.scss */
+footer ul.social-icon li a.linkedin {
+  background-position: 0px -100px;
+}
+/* line 642, ../stylesheets/formstack.scss */
+footer ul.social-icon li a.linkedin:hover {
+  background-position: -50px -100px;
+}
+/* line 645, ../stylesheets/formstack.scss */
+footer ul.social-icon li a.youtube {
+  background-position: 0px -200px;
+}
+/* line 646, ../stylesheets/formstack.scss */
+footer ul.social-icon li a.youtube:hover {
+  background-position: -50px -200px;
+}
+/* line 649, ../stylesheets/formstack.scss */
+footer ul.social-icon li a span {
+  display: none;
+}
+/* line 655, ../stylesheets/formstack.scss */
+footer h6 a {
+  color: #7BC143;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+/* line 659, ../stylesheets/formstack.scss */
+footer h6 a:hover {
+  color: #EA9E0A;
+  text-decoration: none;
+}
+/* line 666, ../stylesheets/formstack.scss */
+footer p.company-info {
+  float: left;
+  line-height: 1.5em;
+}
+@media screen and (min-device-width: 320px) and (max-device-width: 640px) {
+  /* line 666, ../stylesheets/formstack.scss */
+  footer p.company-info {
+    width: 100%;
+  }
+}
+/* line 674, ../stylesheets/formstack.scss */
+footer p.company-info a {
+  color: #ffffff;
+  text-decoration: none;
+}
+/* line 678, ../stylesheets/formstack.scss */
+footer p.company-info a:hover {
+  color: #EA9E0A;
+  text-decoration: none;
+}
